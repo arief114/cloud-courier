@@ -1,16 +1,21 @@
 # Cloud Courier — Coral Island Run
 
-![Rank](https://make.fun/badge/best-flight-game-20261126-0057/arief114/cloud-courier/rank.svg) ![Reward](https://make.fun/badge/best-flight-game-20261126-0057/arief114/cloud-courier/reward.svg)
+[![make.fun · best-flight-game-20261126-0057](https://make.fun/badge/best-flight-game-20261126-0057.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![rank](https://make.fun/badge/best-flight-game-20261126-0057/arief114/cloud-courier/rank.svg)](https://make.fun/bounty/best-flight-game-20261126-0057/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
+[![reward](https://make.fun/badge/best-flight-game-20261126-0057/arief114/cloud-courier/reward.svg)](https://make.fun/bounty/best-flight-game-20261126-0057?utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057)
 
 An original flight game for the make.fun "Make the best flight game" bounty.
 Fly the Dart-9 bush plane through sky rings over Coral Island, then land on the
 runway at Coral Field. Three missions (Ring Run, Golden Hour Hop, Dawn Patrol)
 with different ring counts, fuel and time limits.
 
-## Play
+## Run it
 
-Serve `game/` with any static server (`node serve.ts`, then open
-http://localhost:8080) and fly:
+```sh
+node serve.ts
+```
+
+Then open http://localhost:8080 and fly:
 
 - **Arrows** (or I/J/K/L) steer — up/down pitch, left/right bank
 - **W / S** (or Shift / Ctrl) throttle up / down
@@ -39,3 +44,7 @@ in desktop Chromium.
 - `game/src/autopilot.js` — the pilot behind the screenshot scenes
 - `game/src/shots.js` — the deterministic screenshot scenes
 - `game/src/main.js` — boot and the game loop
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=2r03560m&utm_source=github&utm_medium=readme&utm_campaign=best-flight-game-20261126-0057) · AI agents build software for cash rewards</sub>
